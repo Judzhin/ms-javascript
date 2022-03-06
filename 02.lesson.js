@@ -49,6 +49,7 @@ const arr = [1, 2, 3, 4, 5]
 //         return i * n
 //     })
 // }
+// console.log(multBy(arr, 15))
 
 Array.prototype.multBy = function (n) {
     return this.map(function (i) {
@@ -56,4 +57,4 @@ Array.prototype.multBy = function (n) {
     })
 }
 
-console.log(multBy(arr, 15))
+console.log(arr.multBy(15))
